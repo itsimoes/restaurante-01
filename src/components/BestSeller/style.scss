@@ -1,0 +1,50 @@
+.bestseller_wrapper {
+  height: 100vh;
+  color: var(--primary_gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    margin: 0px;
+  }
+
+  .bestseller_text {
+    margin-bottom: 100px;
+  }
+}
+
+.bestseller_title {
+  font-family: "Grand Hotel", cursive;
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.bestseller_text {
+  font-size: 28px;
+  text-align: center;
+  width: 70%;
+}
+
+.bestseller_cards_wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.bestseller_card_container {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h3 {
+    font-family: "Grand Hotel", cursive;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 20px;
+  }
+}
