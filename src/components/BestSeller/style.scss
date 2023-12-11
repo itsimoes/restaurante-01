@@ -48,3 +48,23 @@
     margin-top: 20px;
   }
 }
+
+
+// media query 720p and 1366x768
+@media (max-width: 1366px) { 
+  .bestseller_title {
+    font-size: 70px;
+  }
+
+  .bestseller_text {
+    font-size: 20px;
+  }
+
+  .bestseller_card_container {
+    width: 200px;    
+
+    p {
+      font-size: 14px;
+    }
+  }
+}

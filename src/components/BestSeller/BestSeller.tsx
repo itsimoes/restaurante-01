@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.scss";
 
-import BestSellerCard01 from "../../assets/bestseller_card_01.png";
-import BestSellerCard02 from "../../assets/bestseller_card_02.png";
-import BestSellerCard03 from "../../assets/bestseller_card_03.png";
+import BestSellerCard01 from "../../assets/images/bestseller_card_01.png";
+import BestSellerCard02 from "../../assets/images/bestseller_card_02.png";
+import BestSellerCard03 from "../../assets/images/bestseller_card_03.png";
 
 const BestSeller = () => {
   return (
