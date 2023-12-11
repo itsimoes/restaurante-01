@@ -23,7 +23,7 @@
 }
 
 .highlight01_text_container {
-  width: 600px;
+  width: 650px;
 }
 
 .highlights_title {
@@ -45,7 +45,8 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url("../../assets/images/restaurante_statistics_bg.png") center no-repeat;
+  background: url("../../assets/images/restaurante_statistics_bg.png") center
+    no-repeat;
   background-size: 90%;
   background-color: var(--primary_gray);
 }
@@ -57,7 +58,7 @@
 }
 
 .statistics_cards_container {
-  display: flex;  
+  display: flex;
   padding-top: 50px;
 }
 
@@ -68,14 +69,50 @@
   border-radius: 50%;
   display: flex;
   flex-direction: column;
-  text-align: center;  
+  text-align: center;
   justify-content: center;
   font-size: 28px;
   font-weight: 700;
   margin: 30px;
-  
+
   span {
     font-size: 50px;
     color: var(--primary_yellow);
   }
+}
+
+
+// highlight02
+
+.highlight02_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;  
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;    
+    z-index: -1;
+    background: url("../../assets/images/restaurante_highlight01_detail.png")
+      top no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+  }
+}
+
+
+.highlight02_card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+#highlight02_card {
+  height: 600px;
+  padding-left: 200px;
 }
