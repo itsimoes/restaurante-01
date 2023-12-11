@@ -1,6 +1,8 @@
 .navbar_wrapper {
   position: absolute;
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   z-index: 3;
 }
@@ -11,6 +13,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  max-width: 1900px;
 }
 
 .navbar_logo {
@@ -35,3 +38,16 @@
     }
 }
 
+// media query 720p and 1366x768
+@media (max-width: 1366px) { 
+  .navbar_logo {
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  .navbar_link {
+    padding: 15px;
+    font-size: 12px;
+    border: 1px solid var(--primary_white);
+  }
+}
