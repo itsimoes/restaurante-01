@@ -81,13 +81,12 @@
   }
 }
 
-
 // highlight02
 
 .highlight02_wrapper {
   display: flex;
   flex-direction: column;
-  margin-bottom: 100px;  
+  margin-bottom: 100px;
   position: relative;
   overflow: hidden;
 
@@ -95,7 +94,7 @@
     content: "";
     position: absolute;
     width: 100%;
-    height: 100%;    
+    height: 100%;
     z-index: -1;
     background: url("../../assets/images/restaurante_highlight01_detail.png")
       top no-repeat;
@@ -103,7 +102,6 @@
     transform: rotate(180deg);
   }
 }
-
 
 .highlight02_card_container {
   display: flex;
@@ -117,10 +115,8 @@
   padding-left: 200px;
 }
 
-
-
 // media query 720p and 1366x768
-@media (max-width: 1366px) { 
+@media (max-width: 1366px) {
   // Highlight01
   #highlight01_card {
     width: 300px;
@@ -131,12 +127,33 @@
   .highlight01_text_container {
     width: 350px;
   }
-  
+
   .highlights_title {
     font-size: 70px;
   }
 
   #highlight01_text {
     font-size: 20px;
+  }
+
+  // Statistics
+
+  #statistics_text {
+    font-size: 20px;
+  }
+
+  .statistics_cards_container {
+    padding-top: 0;
+  }
+
+  .statistics_card {
+    width: 150px;
+    height: 150px;
+    border: 4px solid var(--primary_white);
+    font-size: 20px;
+
+    span {
+      font-size: 35px;
+    }
   }
 }
