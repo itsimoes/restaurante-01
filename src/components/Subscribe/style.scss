@@ -58,3 +58,24 @@
     background-color: var(--secondary_yellow);
   }
 }
+
+// media query 720p and 1366x768
+@media (max-width: 1366px) {
+  .subscribe_title {
+    font-size: 70px;
+  }
+
+  .subscribe_text {
+    font-size: 20px;
+  }
+  
+  #subscribe_input {
+    height: 40px;
+    font-size: 16px;
+  }
+
+  #subscribe_submit_button {
+    height: 40px;
+    font-size: 16px;
+  }
+}
