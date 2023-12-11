@@ -3,7 +3,7 @@ import "./style.scss";
 
 const Subscribe = () => {
   return (
-    <div className="subscribe_wrapper">
+    <div id="subscribe" className="subscribe_wrapper">
       <h3 className="subscribe_title">Inscreva-se!</h3>
       <div className="subscribe_text">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
