@@ -40,3 +40,31 @@
     color: var(--primary_yellow);
   }
 }
+
+// media query 720p and 1366x768
+@media (max-width: 1366px) {
+  .footer_wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h4 {
+      font-size: 20px;
+    }
+  }
+
+  #footer_logo {
+    height: 400px;
+  }
+  
+  .footer_socialmedia_card {
+    width: 50%;
+  }
+
+  .footer_socialmedia_icon {
+    width: 30px;
+  }
+
+  .footer_email_contact {
+    font-size: 14px !important;
+  }
+}
