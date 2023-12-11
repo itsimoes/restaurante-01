@@ -116,3 +116,27 @@
   height: 600px;
   padding-left: 200px;
 }
+
+
+
+// media query 720p and 1366x768
+@media (max-width: 1366px) { 
+  // Highlight01
+  #highlight01_card {
+    width: 300px;
+    height: auto;
+    padding-right: 100px;
+  }
+
+  .highlight01_text_container {
+    width: 350px;
+  }
+  
+  .highlights_title {
+    font-size: 70px;
+  }
+
+  #highlight01_text {
+    font-size: 20px;
+  }
+}
