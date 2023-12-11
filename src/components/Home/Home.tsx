@@ -12,7 +12,7 @@ const Home = () => {
       <img className="home_background" src={HomeBackground} alt="" />
       <img className="home_detail" src={HomeDetail} alt="" />
       <div className="home_text_container">
-        <div className="home_title">Restaurante</div>
+        <h1 className="home_title">Restaurante</h1>
         <div className="home_text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione
           excepturi porro ullam ducimus quam.

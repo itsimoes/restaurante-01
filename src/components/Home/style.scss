@@ -24,6 +24,8 @@
   .home_title {
     font-family: "Grand Hotel", cursive;
     font-size: 150px;
+    font-weight: 400;
+    color: var(--primary_yellow);
   }
   .home_text {
     width: 75%;
@@ -33,7 +35,7 @@
 
 .submit_button {
   width: 300px;
-  height: 50px;
+  height: 60px;
   background-color: var(--primary_yellow);
   color: var(--primary_gray);
   display: flex;
@@ -43,6 +45,7 @@
   border-radius: 5px;
   cursor: pointer;
 
+  font-size: 20px;
   font-weight: 700;
 
   &:hover {
