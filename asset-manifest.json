@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/restaurante-01/static/css/main.6e0c6cdd.css",
+    "main.js": "/restaurante-01/static/js/main.5ba46945.js",
+    "static/js/787.71d1b3a1.chunk.js": "/restaurante-01/static/js/787.71d1b3a1.chunk.js",
+    "static/media/home_bg_MOBILE.png": "/restaurante-01/static/media/home_bg_MOBILE.f78d66ea1423385a33f6.png",
+    "static/media/restaurante_home_bg.png": "/restaurante-01/static/media/restaurante_home_bg.b68223972108c1c1a7ad.png",
+    "static/media/restaurante_highlight02_card.png": "/restaurante-01/static/media/restaurante_highlight02_card.c2bf3346ef7d6f8f2555.png",
+    "static/media/restaurante_highlight01_card.png": "/restaurante-01/static/media/restaurante_highlight01_card.771ecd65a09e9bb2efaa.png",
+    "static/media/restaurante_highlight01_detail.png": "/restaurante-01/static/media/restaurante_highlight01_detail.253fa67256f79b589fbf.png",
+    "static/media/restaurante_home_detail_2.png": "/restaurante-01/static/media/restaurante_home_detail_2.af46dcdffb2da3aaf0b3.png",
+    "static/media/bestseller_card_03.png": "/restaurante-01/static/media/bestseller_card_03.7bceed784f94442ccb5c.png",
+    "static/media/bestseller_card_02.png": "/restaurante-01/static/media/bestseller_card_02.cc1c47f981f0d8586668.png",
+    "static/media/bestseller_card_01.png": "/restaurante-01/static/media/bestseller_card_01.dc78bc3aa8328c308aef.png",
+    "static/media/restaurante_statistics_bg.png": "/restaurante-01/static/media/restaurante_statistics_bg.276e2da80199d3ac0d67.png",
+    "static/media/restaurant_logo.png": "/restaurante-01/static/media/restaurant_logo.8934aa831c14c9c10a7b.png",
+    "static/media/twitter.png": "/restaurante-01/static/media/twitter.25559f217a7fa0cbf602.png",
+    "static/media/whatsapp.png": "/restaurante-01/static/media/whatsapp.9d11b6c5b3920c055e8a.png",
+    "static/media/instagram.png": "/restaurante-01/static/media/instagram.d928fd0907fc750d181e.png",
+    "index.html": "/restaurante-01/index.html",
+    "main.6e0c6cdd.css.map": "/restaurante-01/static/css/main.6e0c6cdd.css.map",
+    "main.5ba46945.js.map": "/restaurante-01/static/js/main.5ba46945.js.map",
+    "787.71d1b3a1.chunk.js.map": "/restaurante-01/static/js/787.71d1b3a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e0c6cdd.css",
+    "static/js/main.5ba46945.js"
+  ]
+}
