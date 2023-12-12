@@ -15,6 +15,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 100px;
+  flex-wrap: wrap;
 }
 
 #highlight01_card {
@@ -59,6 +60,9 @@
 
 .statistics_cards_container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   padding-top: 50px;
 }
 
@@ -86,9 +90,9 @@
 .highlight02_wrapper {
   display: flex;
   flex-direction: column;
-  margin-bottom: 100px;
   position: relative;
   overflow: hidden;
+  padding-bottom: 150px;
 
   &::before {
     content: "";
@@ -113,6 +117,7 @@
 #highlight02_card {
   height: 600px;
   padding-left: 200px;
+  padding-left: 0 !important;
 }
 
 // media query 720p and 1366x768
@@ -162,5 +167,75 @@
   #highlight02_card {
     height: 300px;
     padding-left: 100px;
+  }
+}
+
+// media query MOBILE
+@media (max-width: 431px) {
+  // Highlight01
+  .highlight01_wrapper {
+    margin-bottom: -100px;
+  }
+
+  #highlight01_card {
+    padding-right: 0;
+    padding-bottom: 20px;
+    width: 200px;
+  }
+  .highlights_title {
+    font-size: 50px;
+  }
+
+  .highlight01_text_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #highlight01_text {
+      width: 70%;
+      text-align: justify;
+      font-size: 16px;
+    }
+  }
+
+  //Statistics
+
+  .statistics_wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: auto;
+  }
+
+  #statistics_text {
+    width: 70%;
+    text-align: justify;
+  }
+
+  .statistics_card {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+
+  //Highlight02
+
+  .highlight02_wrapper {
+    margin-top: -100px;
+  }
+
+  .highlight02_card_container {
+    flex-direction: column;
+
+    #highlight02_card {
+      padding-bottom: 20px;
+      width: 200px;
+      height: 200px;
+      order: 1;
+    }
+
+    .highlight01_text_container {
+      order: 2;
+    }
   }
 }
