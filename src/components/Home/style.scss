@@ -24,19 +24,19 @@
 
   .home_title {
     font-family: "Grand Hotel", cursive;
-    font-size: 150px;
+    font-size: 100px;
     font-weight: 400;
     color: var(--primary_yellow);
   }
   .home_text {
-    width: 75%;
-    font-size: 28px;
+    width: 60%;
+    font-size: 20px;
   }
 }
 
 .submit_button {
-  width: 300px;
-  height: 60px;
+  width: 200px;
+  height: 50px;
   background-color: var(--primary_yellow);
   color: var(--primary_gray);
   display: flex;
@@ -46,7 +46,7 @@
   border-radius: 5px;
   cursor: pointer;
 
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
 
   &:hover {
@@ -57,19 +57,12 @@
 // media query 720p and 1366x768
 @media (max-width: 1366px) {
   .home_text_container {
-    .home_title {
-      font-size: 100px;
-    }
-
     .home_text {
-      font-size: 20px;
+      width: 75%;
     }
   }
 
-  .submit_button {
-    width: 200px;
-    height: 50px;
-    font-size: 16px;
+  .submit_button {    
     margin-top: 30px;
   }
 }
