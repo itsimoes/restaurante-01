@@ -15,4 +15,4 @@
 
 <b>Versão mobile tema escuro </b>
 
-<img src="https://puser-images.githubusercontent.com/7232098/289880501-5bf02898-8265-480f-9391-878b3ed97b3d.png" width="20%" />
+<img src="https://user-images.githubusercontent.com/7232098/289880501-5bf02898-8265-480f-9391-878b3ed97b3d.png" width="20%" />
