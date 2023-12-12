@@ -1,16 +1,23 @@
 .footer_wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-color: var(--primary_gray);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   flex-wrap: wrap;
 
   h4 {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 500;
   }
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1366px;
 }
 
 .footer_card_container {
@@ -22,57 +29,38 @@
 
 .footer_socialmedia_card {
   display: flex;
-  width: 70%;
+  width: 40%;
   justify-content: space-evenly;
 }
 
 .footer_socialmedia_icon {
-  width: 50px;
+  width: 30px;
   cursor: pointer;
 }
 
 .footer_email_contact {
-  font-size: 20px !important;
   padding: 10px;
   font-weight: 400 !important;
+  font-size: 14px !important;
 
   a {
     text-decoration: none;
     color: var(--primary_yellow);
   }
 }
+#footer_logo {
+  height: 400px;
+}
 
 // media query 720p and 1366x768
 @media (max-width: 1366px) {
-  .footer_wrapper {
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-    h4 {
-      font-size: 20px;
-    }
-  }
-
-  #footer_logo {
-    height: 400px;
-  }
-  
   .footer_socialmedia_card {
     width: 50%;
   }
-
-  .footer_socialmedia_icon {
-    width: 30px;
-  }
-
-  .footer_email_contact {
-    font-size: 14px !important;
-  }
 }
 
-
 // media query MOBILE
-@media (max-width: 431px) { 
+@media (max-width: 431px) {
   #footer_logo {
     width: 200px;
     height: auto;
