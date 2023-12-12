@@ -1,6 +1,7 @@
 .home_wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 100vh;
   background-color: var(--primary_gray);
 }
@@ -70,5 +71,40 @@
     height: 50px;
     font-size: 16px;
     margin-top: 30px;
+  }
+}
+
+// media query MOBILE
+@media (max-width: 431px) {
+  .home_wrapper {
+    background-color: var(--primary_gray);
+    background: url("../../assets/images/home_bg_MOBILE.png") right no-repeat;
+    background-size: cover;
+    justify-content: center;
+  }
+  .home_background {
+    display: none;
+  }
+  .home_detail {
+    display: none;
+  }
+  .home_text_container {
+    background-color: var(--primary_gray);
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 70%;
+    border: 2px solid var(--primary_yellow);
+    border-radius: 10px;
+
+    align-items: center;
+    .home_title {
+      font-size: 80px;
+    }
+
+    .home_text {
+      font-size: 18px;
+      width: 100%;
+      text-align: justify;
+    }
   }
 }
