@@ -13,6 +13,6 @@
 
 <img src="https://user-images.githubusercontent.com/7232098/289880516-51a5f6ae-c8dc-437f-91a3-6921081ad491.png" width="50%" />
 
-<b>Versão mobile tema escuro </b>
+<b>Versão mobile</b>
 
 <img src="https://user-images.githubusercontent.com/7232098/289880501-5bf02898-8265-480f-9391-878b3ed97b3d.png" width="20%" />
