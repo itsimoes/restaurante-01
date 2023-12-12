@@ -32,6 +32,7 @@
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .bestseller_card_container {
@@ -49,9 +50,8 @@
   }
 }
 
-
 // media query 720p and 1366x768
-@media (max-width: 1366px) { 
+@media (max-width: 1366px) {
   .bestseller_title {
     font-size: 70px;
   }
@@ -61,10 +61,37 @@
   }
 
   .bestseller_card_container {
-    width: 200px;    
+    width: 200px;
 
     p {
       font-size: 14px;
+    }
+  }
+}
+
+// media query MOBILE
+@media (max-width: 431px) {
+  .bestseller_wrapper {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .bestseller_title {
+      font-size: 50px;
+    }
+
+    .bestseller_text {
+      font-size: 16px;
+      width: 80%;
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+  }
+
+  .bestseller_card_container {
+    padding-top: 30px;
+    h3 {
+      font-size: 30px;
     }
   }
 }
