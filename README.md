@@ -11,7 +11,7 @@
 
 <b>Versão desktop</b>
 
-<img src="https://user-images.githubusercontent.com/7232098/289880516-51a5f6ae-c8dc-437f-91a3-6921081ad491.png" width="50%" />
+<img src="https://user-images.githubusercontent.com/7232098/289972464-12d25f9b-3db0-44a6-8fb9-40688a7c4843.png" width="50%" />
 
 <b>Versão mobile</b>
 
