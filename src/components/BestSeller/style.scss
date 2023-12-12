@@ -5,19 +5,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   h2 {
     margin: 0px;
   }
 
   .bestseller_text {
     margin-bottom: 100px;
+    font-size: 20px;
   }
+}
+
+.bestseller_container {
+  max-width: 1366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .bestseller_title {
   font-family: "Grand Hotel", cursive;
-  font-size: 100px;
+  font-size: 70px;
   font-weight: 400;
 }
 
@@ -36,7 +44,7 @@
 }
 
 .bestseller_card_container {
-  width: 300px;
+  width: 250px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -48,24 +56,21 @@
     margin: 0;
     margin-top: 20px;
   }
+  p {
+    font-size: 14px;
+  }
 }
 
 // media query 720p and 1366x768
 @media (max-width: 1366px) {
   .bestseller_title {
-    font-size: 70px;
   }
 
   .bestseller_text {
-    font-size: 20px;
   }
 
   .bestseller_card_container {
-    width: 200px;
-
-    p {
-      font-size: 14px;
-    }
+   
   }
 }
 
