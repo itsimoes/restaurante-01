@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/restaurante-01/static/css/main.784ae2c0.css",
+    "main.css": "/restaurante-01/static/css/main.d290a0e5.css",
     "main.js": "/restaurante-01/static/js/main.0a769b54.js",
     "static/js/787.71d1b3a1.chunk.js": "/restaurante-01/static/js/787.71d1b3a1.chunk.js",
     "static/media/home_bg_MOBILE.png": "/restaurante-01/static/media/home_bg_MOBILE.f78d66ea1423385a33f6.png",
@@ -18,12 +18,12 @@
     "static/media/whatsapp.png": "/restaurante-01/static/media/whatsapp.9d11b6c5b3920c055e8a.png",
     "static/media/instagram.png": "/restaurante-01/static/media/instagram.d928fd0907fc750d181e.png",
     "index.html": "/restaurante-01/index.html",
-    "main.784ae2c0.css.map": "/restaurante-01/static/css/main.784ae2c0.css.map",
+    "main.d290a0e5.css.map": "/restaurante-01/static/css/main.d290a0e5.css.map",
     "main.0a769b54.js.map": "/restaurante-01/static/js/main.0a769b54.js.map",
     "787.71d1b3a1.chunk.js.map": "/restaurante-01/static/js/787.71d1b3a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.784ae2c0.css",
+    "static/css/main.d290a0e5.css",
     "static/js/main.0a769b54.js"
   ]
 }
