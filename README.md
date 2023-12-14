@@ -1,6 +1,6 @@
 # Restaurante - Landing Page
 
-- Este é um projeto pessoal desenvolvido utilizando ReactJS com base no layout de um restaurante encontrado no site [Freepik]([https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL](https://www.freepik.com/free-psd/restaurant-landing-page-template_7436705.htm))  com intuito de aplicar conhecimentos sobre utilização de componentes ReactJS, incorporação de elementos de imagem, alinhamento e estilização.
+- Este é um projeto pessoal desenvolvido utilizando ReactJS com base no layout de um restaurante encontrado no site [Freepik](https://www.freepik.com/free-psd/restaurant-landing-page-template_7436705.htm)  com intuito de aplicar conhecimentos sobre utilização de componentes ReactJS, incorporação de elementos de imagem, alinhamento e estilização.
 
 - Link para o site do projeto: [Restaurante](https://itsimoes.github.io/restaurante-01/)
 
